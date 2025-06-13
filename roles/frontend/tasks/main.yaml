@@ -8,8 +8,9 @@
     name: nginx
     state: started
     enabled: yes
+
 - name: incluing from common role
-- include_role:
+  include_role:
     name: common
     tasks_from: main.yaml
 
